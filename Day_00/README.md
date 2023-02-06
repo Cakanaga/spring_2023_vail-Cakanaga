@@ -33,7 +33,7 @@ Concatenation: The process of joining two or more Series or DataFrames along an 
 Pivot table: A two-dimensional data structure that summarizes data values by grouping data along one or more columns and aggregating data along another column.
 
 ## Main takeaways from doing today's assignment
-Python libraries are more efficient that trying to do things in base python. 
+Python libraries are more efficient than trying to do things in base python. 
 
 
 ## Challenging, interesting, or exciting aspects of today's assignment
