@@ -13,7 +13,7 @@ Hyperparameters are attributes, whose values control the learning process and de
 
 We initialize with random weights because it keeps the weights away from the regions where they might vanish or 'explode'
 
-"forward propogation" or forward pass is when we compute through the four layers of our neural network --- composed of one input layer, two hidden layers (with Sigmoid activation function) and one output layer (with Softmax activation function) --- to get the output  A3  from the input features  A0
+The forward pass computes the output of the network given an input, while the backward pass computes the gradients of the loss with respect to the network parameters and updates the network parameters accordingly.
 
 ## Challenging, interesting, or exciting aspects of today's assignment
 Now, if we wanted the output  y  to be a vector of size 4, and the input  x  to be a vector of size 2: a) what should the dimensions of W be? b) should we initialize the weights as np.random.randn(dimension of current layer, dimension of its previous layer), or should we instead use np.random.randn(dimension of the previous layer, dimension of current layer)?
