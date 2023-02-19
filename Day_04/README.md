@@ -17,7 +17,9 @@ A consequence of overfitting is that model "memorizes" the training data and is 
 A purpose of pooling layers is to reduce the spatial dimensions (height and width). This has the potential to reduce overfitting --- a phenomena that happens when your dataset is not large enough to accomodate the number of features, that can theoretically be used for classification/prediction.
 
 ## Challenging, interesting, or exciting aspects of today's assignment
-<To be filled>
+Creating the secon hidden layer was challenging but after some reserach, I realized I had to predict on the first layer's images, not the original.
 
 ## Additional resources used 
 https://medium.com/analytics-vidhya/a-tip-a-day-python-tip-8-why-should-we-normalize-image-pixel-values-or-divide-by-255-4608ac5cd26a
+  
+  https://medium.com/mlearning-ai/demystifying-batch-normalization-vs-drop-out-1c8310d9b516
